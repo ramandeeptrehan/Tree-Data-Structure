@@ -20,7 +20,7 @@ struct node
     struct node *right;
 };
 
-queue<struct node*> myQueue; //queue holds nodes of tree
+queue<struct node*> myQueue; //queue holds different nodes of tree
 
 struct node* newNode(int data)
 {
